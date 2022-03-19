@@ -1,0 +1,41 @@
+body {
+    background-image: url(/images/map-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Arvo', serif;
+    font-size: 3rem;
+}
+
+.theBox {
+    width: 90vw;
+    height: 120px;
+    background-color: rgba(00, 00, 00, 0.4);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    color: white;
+}
+
+.theBox button {
+    float: right;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.hide {
+    visibility: hidden;
+}
