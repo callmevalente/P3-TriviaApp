@@ -85,9 +85,9 @@ for (entry of data) {
     triviaButton.setAttribute("type", "button")
     let triviaBox = document.createElement("div")
     triviaBox.classList.add("theBox")
-    let questionText = document.createElement("h3")
+    let questionText = document.createElement("h2")
     questionText.textContent = entry.question
-    let answerText = document.createElement("p")
+    let answerText = document.createElement("h3")
     answerText.textContent = entry.answer
     answerText.setAttribute("id", `${entry.questionNum}Answer`)
     answerText.classList.add("hide")
